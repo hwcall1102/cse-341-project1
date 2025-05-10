@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hwcall1102/cse-341-project1/issues"
   },
-  "homepage": "https://github.com/hwcall1102/cse-341-project1#readme"
+  "homepage": "https://github.com/hwcall1102/cse-341-project1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
