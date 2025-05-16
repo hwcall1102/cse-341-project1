@@ -29,7 +29,7 @@
         "tags": [
           "Users"
         ],
-        "description": "",
+        "description": "Get all users",
         "produces": [
           "application/JSON"
         ],
@@ -40,7 +40,7 @@
         }
       },
       "post": {
-        "description": "",
+        "description": "Create a new user",
         "parameters": [
           {
             "name": "body",
@@ -82,7 +82,7 @@
         "tags": [
           "Users"
         ],
-        "description": "",
+        "description": "Get a specific user",
         "produces": [
           "application/JSON"
         ],
@@ -101,7 +101,7 @@
         }
       },
       "put": {
-        "description": "",
+        "description": "Update an existing user",
         "parameters": [
           {
             "name": "id",
@@ -144,7 +144,7 @@
         }
       },
       "delete": {
-        "description": "",
+        "description": "delete a specific user",
         "parameters": [
           {
             "name": "id",
