@@ -21,7 +21,7 @@ const getSingle = async (req, res) => {
 };
 
 const createUser = async (req, res) => {
-
+    //#swagger.tags=['Users']
     const user = {
         firstName: req.body.firstName,
         lastName: req.body.lastName,
@@ -38,7 +38,7 @@ const createUser = async (req, res) => {
 };
 
 const updateUser = async (req, res) => {
-
+    //#swagger.tags=['Users']
     const userId = new ObjectId(req.params.id);
     const user = {
         firstName: req.body.firstName,
@@ -56,7 +56,7 @@ const updateUser = async (req, res) => {
 };
 
 const deleteUser = async (req, res) => {
-    
+    //#swagger.tags=['Users']
     const userId = new ObjectId(req.params.id);
     const response = await mongodb.getDb().db().collection('ContactList').deleteOne({ _id: userId });
     if (response.deletedCount > 0) {
