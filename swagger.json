@@ -40,6 +40,9 @@
         }
       },
       "post": {
+        "tags": [
+          "Users"
+        ],
         "description": "Create a new user",
         "parameters": [
           {
@@ -101,6 +104,9 @@
         }
       },
       "put": {
+        "tags": [
+          "Users"
+        ],
         "description": "Update an existing user",
         "parameters": [
           {
@@ -144,6 +150,9 @@
         }
       },
       "delete": {
+        "tags": [
+          "Users"
+        ],
         "description": "delete a specific user",
         "parameters": [
           {
